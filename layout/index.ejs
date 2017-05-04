@@ -1,1 +1,10 @@
 <h1>index template.</h1>
+<%- list_categories() %>
+<hr/>
+<%- list_tags() %>
+<hr/>
+<%- list_posts() %>
+<hr/>
+{% for link in site.data.menu %}
+ {{ link }} {{ loop.key }}
+{% endfor %}

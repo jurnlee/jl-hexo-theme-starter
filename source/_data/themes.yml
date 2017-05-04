@@ -1,0 +1,9 @@
+- name: jlstarter
+  description: A brand new default theme for Hexo.
+  link: https://github.com/jurnlee/jl-hexo-theme-starter
+  preview: https://github.com/jurnlee/jl-hexo-theme-starter
+  tags:
+    - official
+    - responsive
+    - widget
+    - two_column
