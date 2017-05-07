@@ -1,25 +1,64 @@
-home: Home
-categories: Categories
-search: Search
-tags: Tags
-tagcloud: Tag Cloud
-prev: Prev
-next: Next
-comment: Comments
-contents: Contents
-archive_a: Archives
-archive_b: "Archives: %s"
-archive_date: "MMM YYYY"
-page: Page %d
-recent_posts: Recent Posts
-menu: Menu
-weibo: Weibo
-links: Links
-rss: RSS
-doubanshow: Douban Show
-github-card: Github Card
-showsidebar: Show Sidebar
-hidesidebar: Hide Sidebar
-updated: Updated
-totop: Back to Top
-datepublished: Published
+globale:
+    home: Home
+    menu: Menu
+    categories: Categories
+    search: Search
+    tags: Tag
+    tagcloud: Tag Cloud
+    archive: Archives
+    archive_b: Archives：%s
+    archive_date: "MMM YYYY"
+    links: Links
+    rss: RSS 
+    search_category: "Search Categories"
+    search_tag: "Search Tags"
+    search_date: "Search Date: YYYY/MM/DD"
+    posts_found:
+        zero: "No Post"
+        one: " 1 Post"
+        other: " {n} Posts"
+    categories_found:
+        zero: "No Category"
+        one: " 1 Category"
+        other: " {n} Categories"
+    tags_found:
+        zero: "No Tag"
+        one: " 1 Tag"
+        other: " {n} Tags"
+
+posts:
+    prev: Prev
+    next: Next
+    comment: Comments
+    contents: Contents
+    updated: Updated
+    datepublished: Published
+    
+pagination:
+    page: Page %d 
+    recent_posts: Recent Posts
+
+actions:
+    showsidebar: Show Sidebar
+    hidesidebar: Hide Sidebar
+    totop: Back to Top
+
+author:
+    author_picture: "Author Picture"
+    mail: Mail
+
+social:
+    weibo: Weibo
+    github-card: Github Card
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    google_plus: "Google Plus"
+    linkedin: "LinkedIn"
+    share_on_facebook: "Share On Facebook"
+    share_on_twitter: "Share On Twitter"
+    share_on_google_plus: "Share On Google+"
+    share_on_weibo: "Share On Weibo"
+    share_on_qq: "Share On QQ"
+    share_on_qzone: "Share On Qzone"

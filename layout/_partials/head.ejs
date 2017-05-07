@@ -1,11 +1,17 @@
-
-	<meta charset="utf-8" />
-<%
+<% /* to remove wordspace */ _%>
+<meta charset="utf-8" />
+<%_
 	var title = page.title
-%>
-	<title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
-<% if (config.author){ %>
+_%>
+	<title> 
+	<%_ if (title){ _%> 
+	<%= title %> | 
+	<%_ } _%> 
+	<%= config.title %>
+	</title>
+<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<%_ if (config.author){ _%>
     <meta name="author" content="<%= config.author %>">
-<% } %>    
+<%_ } _%>    
+
+<%- css('css/normalize.css') %>

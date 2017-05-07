@@ -1,25 +1,67 @@
-home: 首页
-categories: 分类
-search: 搜索
-tags: 标签
-tagcloud: 标签云
-prev: 上一页
-next: 下一页
-comment: 文章评论
-contents: 文章目录
-archive_a: 归档
-archive_b: 归档：%s
-archive_date: "YYYY 年 MM 月"
-page: 第 %d 页
-recent_posts: 近期文章
-menu: 菜单
-links: 友情链接
-weibo: 新浪微博
-rss: RSS 订阅
-doubanshow: 豆瓣秀
-github-card: Github 名片
-showsidebar: 显示侧边栏
-hidesidebar: 隐藏侧边栏
-updated: 更新日期
-totop: 返回顶部
-datepublished: 发表于
+globale:
+    home: 首页
+    menu: 菜单
+    categories: 分类
+    search: 搜索
+    tags: 标签
+    tagcloud: 标签云
+    archive: 归档
+    archive_b: 归档：%s
+    archive_date: "YYYY 年 MM 月"
+    links: 友情链接
+    rss: RSS 订阅
+    search_category: "搜索分类"
+    search_tag: "搜索标签"
+    search_date: "搜索日期 (YYYY/MM/DD)"
+    posts_found:
+        zero: "没有找到文章"
+        one: "找到 1 篇文章"
+        other: "找到 {n} 篇文章"
+    categories_found:
+        zero: "没有找到分类"
+        one: "找到 1 个分类"
+        other: "找到 {n} 个分类"
+    tags_found:
+        zero: "没有找到标签"
+        one: "找到 1 个标签"
+        other: "找到 {n} 个标签"
+
+posts:
+    prev: 上一页
+    next: 下一页
+    comment: 文章评论
+    contents: 文章目录
+    updated: 更新日期
+    datepublished: 发表于
+    
+pagination:
+    page: 第 %d 页
+    recent_posts: 近期文章
+
+actions:
+    showsidebar: 显示侧边栏
+    hidesidebar: 隐藏侧边栏
+    totop: 返回顶部
+
+author:
+    author_picture: "作者的图片"
+    mail: "邮箱"
+
+social:
+    weibo: 新浪微博
+    github-card: Github 名片
+    github: "GitHub"
+    stack_overflow: "Stack Overflow"
+    twitter: "Twitter"
+    facebook: "Facebook"
+    google_plus: "Google Plus"
+    linkedin: "LinkedIn"
+    share_on_facebook: "分享到 Facebook"
+    share_on_twitter: "分享到 Twitter"
+    share_on_google_plus: "分享到 Google+"
+    share_on_weibo: "分享到 Weibo"
+    share_on_qq: "分享到 QQ"
+    share_on_qzone: "分享到 Qzone"
+    
+    
+    

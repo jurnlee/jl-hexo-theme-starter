@@ -1,10 +1,15 @@
 <h1>index template.</h1>
+
+list  category: <br />
 <%- list_categories() %>
 <hr/>
+list tags: <br />
 <%- list_tags() %>
 <hr/>
+list posts: <br />
 <%- list_posts() %>
 <hr/>
-{% for link in site.data.menu %}
- {{ link }} {{ loop.key }}
-{% endfor %}
+
+<%- image_tag("imgs/scrollup.png", {class:"imgClass",width:50,height:50}) %> <%- __('actions.totop') %>
+<br />
+<%- page.current_url %>
