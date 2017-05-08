@@ -8,8 +8,8 @@
 ## Menu
 menu:
   Home: /
-  Archives: /archives
-  About: /about
+  Archives: /archives/index.html
+  About: /about.html
 
 ## Theme  
 theme_color:
