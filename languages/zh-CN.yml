@@ -63,5 +63,6 @@ social:
     share_on_qq: "分享到 QQ"
     share_on_qzone: "分享到 Qzone"
     
-    
+tips:
+    browser_outdated: 您使用的浏览器已过时，为了更好的体验，请<a href="http://browsehappy.com/">升级浏览器</a>。
     

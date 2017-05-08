@@ -1,3 +1,9 @@
+# 注意：
+# xx:
+#   yy: true 表示对象{xx:{yy:true}}
+# xx:
+#   - yy 表示数组 xx=['yy']
+#
 
 ## Menu
 menu:
@@ -5,23 +11,17 @@ menu:
   Archives: /archives
   About: /about
 
-## widgets
-widgets: 
-- github-card
-- category
-- tag
-
-
 ## Theme  
 theme_color:
     theme: '#2ca6cb' 
 
-
-## index post
+## index & post
 index:
   expand: true    
   excerpt_link: Read More  
 
+## helper
+browser_update_tip: true
 
 ## Toc
 toc:
@@ -37,10 +37,15 @@ links:
 
 
 ## Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+comment:
+    disqus:   # enter disqus shortname here
+    duoshuo:  # enter duoshuo shortname here
+    youyan:   # enter youyan uid here
+    facebook: # enter true to enable
+    isso:     # enter the domain name of your own comment isso server eg. comments.example.com
 
-## Share button
+## Share 
+share: default # options: jiathis, bdshare, addtoany, default
 jiathis:
   enable: false ## if you use jiathis as your share tool,the built-in share tool won't be display.
   id:    ## e.g. 1889330 your jiathis ID. 
@@ -59,8 +64,18 @@ tinysou_search:     ## http://tinysou.com/
   enable: false
   id:  ## e.g. "4ac092ad8d749fdc6293" for your tiny search id
 
+## widgets
+widgets: 
+  - github-card
+  - category
+  - tag
+
 ## plugins 
+plugins: 
+  lightgallery: 
+
+
 less: 
   compress: true
   paths: 
-    - source/less/
+    - source/less

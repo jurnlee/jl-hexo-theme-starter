@@ -1,0 +1,11 @@
+<% if (theme.comment.disqus) { %>
+    <%- partial('_partials/comment/disqus', { script: true }) %>
+<% } else if (theme.comment.duoshuo) { %>
+    <%- partial('_partials/comment/duoshuo', { script: true }) %>
+<% } else if (theme.comment.youyan) { %>
+    <%- partial('_partials/comment/youyan', { script: true }) %>
+<% } else if (theme.comment.facebook) { %>
+    <%- partial('_partials/comment/facebook', { script: true }) %>
+<% } else if (theme.comment.isso) { %>
+    <%- partial('_partials/comment/isso', { script: true }) %>
+<% } %>

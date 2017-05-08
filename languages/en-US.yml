@@ -62,3 +62,7 @@ social:
     share_on_weibo: "Share On Weibo"
     share_on_qq: "Share On QQ"
     share_on_qzone: "Share On Qzone"
+
+tips:
+    browser_outdated: You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.
+  

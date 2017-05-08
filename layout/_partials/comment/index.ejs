@@ -1,0 +1,15 @@
+<% if (post.comments) { %>
+    <section id="comments">
+    <% if (theme.comment.disqus) { %>
+        <%- partial('_partials/comment/disqus') %>
+    <% } else if (theme.comment.duoshuo) { %>
+        <%- partial('_partials/comment/duoshuo') %>
+    <% } else if (theme.comment.youyan) { %>
+        <%- partial('_partials/comment/youyan') %>
+    <% } else if (theme.comment.facebook) { %>
+      <%- partial('_partials/comment/facebook') %>
+    <% } else if (theme.comment.isso) { %>
+        <%- partial('_partials/comment/isso') %>
+    <% } %>
+    </section>
+<% } %>

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
-<%- partial('_partials/head') %> 
+<html class="no-js" lang="<%= config.language %>">
+  <head>
+  	<%- partial('_partials/head') _%> 
+  </head>
   <body>
+	<%- partial('_partials/helper/browser-update-tip') -%> 
+	<!-- body start -->
+	
+	<%- body %>
 
-	<div class="container">
-	    <%- body %>
-	</div>
-
-<%- partial('_partials/foot') %> 
-
+    <%- partial('_partials/foot') -%> 
   </body>
 </html>

@@ -1,5 +1,6 @@
-<% /* to remove wordspace */ _%>
+<%_ /* to remove wordspace */ _%>
 <meta charset="utf-8" />
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <%_
 	var title = page.title
 _%>
@@ -10,8 +11,11 @@ _%>
 	<%= config.title %>
 	</title>
 <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+<%_ if (config.description){ _%>
+    <meta name="description" content="<%=config.description%>">
+<%_ } _%>  
 <%_ if (config.author){ _%>
     <meta name="author" content="<%= config.author %>">
 <%_ } _%>    
-
 <%- css('css/normalize.css') %>
+<%- css('css/common.css') %>
