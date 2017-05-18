@@ -1,7 +1,3 @@
-
-<h1>category template</h1>
-
-<%- page.category %>
-
-
-<% /* partial('_partials/post/catetags',{item:page}) */ %>
+<%- partial('categories', {
+    title: theme.categories_title + ': ' + page.category
+}) %>
